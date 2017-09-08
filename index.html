@@ -3,8 +3,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css"
-          href="BBC Project Aleeza CSS.html">
   <title> Aleeza's BBC</title>
 </head>
 <body>
@@ -15,19 +13,27 @@
         <div class="fixedwidth">
             
             <div id="logo">
-            <img src="BBC logo.PNG"/>
+            <img src="C:/Users/aleez/Google Drive/Work/BBC Project/BBC Project Files/BBC logo 1.PNG"/>
                  </div>
                 
                  <div id = "signin">
-                <img src="signin new.PNG"/> Sign in
+                <img src="C:/Users/aleez/Google Drive/Work/BBC Project/BBC Project Files/signin new.PNG"/> Sign in
                 </div>
             
             <div id="topmenu">
                 <ul>
-                <li>News</li>
-                <li></li>
+                <li>News  </li>
+                <li>Sport</li>
+                <li>Weather</li>
+                <li>IPlayer</li>
+                <li>TV</li>
+                <li>Radio</li>
+                <li>More...</li>
                 </ul>
-                
+            </div>
+    
+            <div class="search">
+            <input type="text">
             </div>
                 
         </div>
@@ -66,7 +72,7 @@
     #signin{
         font-weight: bold;
         font-size: 0.9 em;
-        padding: 2px 20px 0 10px;
+        padding: 2px 1px 0 1px;
         border-right: 1px solid #990000;
         width: 200px;
         float: left;
@@ -78,11 +84,11 @@
     }
     
     #topmenu{
+        margin: 0;
         float:left;
     }
     
     topmenu ul{
-        margin:0;
         padding: 0;
     }
     
@@ -90,9 +96,24 @@
      list-style: none;   
      font-weight: bold;
      font-size: 0.9em;
-     border-right: 1px solid #990000;
+     margin-right: 20px;
      height: 100%;
-     padding: :10px 20px 0 20px;
+     border-right: 1px solid #990000;
+     float: left;
+     padding-right: 10px;
+    }
+    
+    .search{
+        float: left;
+        padding: 5px 0 0 10px;
+    }
+    
+    .search input{
+        width: 170px;
+        height: 25px;
+        padding: 3px 0 3px 10px;
+        font-size: 1.2em;
+        
     }
 
 </style>
